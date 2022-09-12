@@ -13,7 +13,7 @@
 
         echo "<h1>Testo originale:</h1>" . '<p>' . $paragrafo . '</p>';
         echo "<h1>Lunghezza del testo:</h1>" . '<p>' . strlen($paragrafo) . '</p>';
-        echo "<h1>Testo con sostituzione:</h1>" . '<p>' . str_replace($badWord, '***', $paragrafo) . '</p>'; 
+        echo "<h1>Testo con sostituzione:</h1>" . '<p>' . str_ireplace($badWord, '***', $paragrafo) . '</p>'; 
     ?>
 </body>
 </html>
